@@ -24,6 +24,9 @@ env:
     # appropriate branch for dependencies.
     - base_rmq_ref=master
 
+arch:
+    - arm64 
+    - amd64 
 elixir:
   - '1.9'
 otp_release:
